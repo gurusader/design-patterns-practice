@@ -1,0 +1,7 @@
+# StarUML
+*.mdj
+
+# IntelliJ IDEA
+.idea/
+out/
+*.iml
