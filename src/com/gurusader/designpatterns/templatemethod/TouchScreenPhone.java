@@ -1,7 +1,7 @@
 package com.gurusader.designpatterns.templatemethod;
 
 // ConcreteClass
-public class TouchScreenPhone extends AbstractPhone {
+public class TouchScreenPhone extends Phone {
 	@Override
 	public void makeCall() {
 		System.out.println("Touch number and call button on screen keypad.");

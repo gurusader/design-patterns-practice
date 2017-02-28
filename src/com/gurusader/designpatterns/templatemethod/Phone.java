@@ -1,7 +1,7 @@
 package com.gurusader.designpatterns.templatemethod;
 
 // AbstractClass
-public abstract class AbstractPhone {
+public abstract class Phone {
 	public abstract void makeCall();
 	public abstract void hangUpCall();
 

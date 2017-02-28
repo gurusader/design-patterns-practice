@@ -1,6 +1,5 @@
 package com.gurusader.designpatterns.iterator;
 
-// IteratedType
 public class Book {
 	private String title;
 

@@ -1,7 +1,7 @@
 package com.gurusader.designpatterns.adapter;
 
 // Adapter
-public class CodeEditorAdapter extends TextEditor implements CodeEditor {
+public class EditorAdapter extends TextEditor implements CodeEditor {
 	@Override
 	public void editCode() {
 		editText();

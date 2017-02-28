@@ -2,12 +2,12 @@ package com.gurusader.designpatterns.templatemethod;
 
 public class TestTemplateMethodPattern {
 	public static void main(String[] args) {
-		AbstractPhone touchScreenPhone = new TouchScreenPhone();
+		Phone touchScreenPhone = new TouchScreenPhone();
 		touchScreenPhone.call();
 
 		System.out.println("");
 
-		AbstractPhone physicalButtonPhone = new PhysicalButtonPhone();
+		Phone physicalButtonPhone = new PhysicalButtonPhone();
 		physicalButtonPhone.call();
 	}
 }
