@@ -11,12 +11,12 @@ public class Guitar implements MusicalInstrument {
 	}
 
 	@Override
-	public MusicalInstrument clone() throws CloneNotSupportedException {
-		return (MusicalInstrument) super.clone();
+	public void play() {
+		System.out.println("Play with " + pickup + " pickup and " + tuning + " tuning.");
 	}
 
 	@Override
-	public String toString() {
-		return super.toString() + "(pickup: " + pickup + ", tuning: " + tuning + ")";
+	public MusicalInstrument clone() throws CloneNotSupportedException {
+		return (MusicalInstrument) super.clone();
 	}
 }

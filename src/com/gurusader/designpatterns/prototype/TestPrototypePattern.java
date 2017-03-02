@@ -4,16 +4,16 @@ public class TestPrototypePattern {
 	public static void main(String[] args) {
 		try {
 			MusicalInstrument guitar1 = new Guitar("SSS", "Standard");
-			System.out.println(guitar1);
+			guitar1.play();
 
 			MusicalInstrument guitar1Clone = guitar1.clone();
-			System.out.println(guitar1Clone);
+			guitar1Clone.play();
 
 			MusicalInstrument guitar2 = new Guitar("HH", "Drop D");
-			System.out.println(guitar2);
+			guitar2.play();
 
 			MusicalInstrument guitar2Clone = guitar2.clone();
-			System.out.println(guitar2Clone);
+			guitar2Clone.play();
 		} catch (CloneNotSupportedException e) {
 			e.printStackTrace();
 		}
